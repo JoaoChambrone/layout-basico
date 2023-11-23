@@ -1,0 +1,104 @@
+main{
+    display: flex;
+    margin-top: 50px;
+}
+section{
+    margin-left: 10px;
+}
+.img1{
+    width: 800px;
+    height: 370px;
+    border: solid black 3px;
+}
+
+.divp1{
+    display: flex;
+    width: 800px;
+    margin-top: 10px;
+    .titulo{
+        text-align: center;
+        width: 200px;
+        font-size: 30px;
+        margin-top: 60px;
+        color: black;
+       
+    }
+    .texto1{
+        width: 600px;
+        height: 300px;
+        border: solid black 3px;
+        margin-left: 25px;
+        text-align: center;
+        color: black;
+        h3{
+            margin-top: 90px;
+        }
+    }
+}
+
+  
+.divp2{
+    margin-left: 480px;
+    position: absolute;
+    margin-top: 30px;
+    color: black;
+    border: solid black 3px;
+    width: 300px;
+    height: 50px;
+    
+}
+
+aside{
+
+    border-radius: 5px;
+    margin-left: 15px;
+    height: 760px;
+    width: 500px;
+    .divas{
+        height: 253px;
+        border: solid black 3px;
+        border-bottom: none;
+    }
+    .divas2{
+        height: 253px;
+        border: solid black 3px;
+        border-bottom: none;
+    }
+    .divas3{
+        height: 253px;
+        border: solid black 3px;
+    }
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.usuarionome{
+    border: solid black 3px;
+    width: 200px;
+    font-weight: bold;
+    border-radius: 5px;
+    button{
+        color: black;
+        padding: 5px;
+    }
+}
+.titulo2{
+    margin-right: 800px;
+    margin-top: 70px;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    .card1{
+        border: solid black 3px;
+        width: 300px;
+        text-align: center;
+        height: 400px;
+    }
+    }
+
+
